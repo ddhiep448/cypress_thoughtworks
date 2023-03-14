@@ -1,0 +1,26 @@
+{
+  "name": "autotest_cypressts",
+  "version": "1.0.0",
+  "description": "Automated test framework with Cypress and TypeScript",
+  "scripts": {
+    "cy:info": "cypress info",
+    "cy:open": "cypress open -C cypress.config",
+    "cy:run:chrome": "cypress run --headed --browser chrome"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/John-doo-tech/autoTest_cypressTS.git"
+  },
+  "author": "Kyons",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/John-doo-tech/autoTest_cypressTS/issues"
+  },
+  "homepage": "https://github.com/John-doo-tech/autoTest_cypressTS#readme",
+  "devDependencies": {
+    "cypress": "^12.5.0"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.3"
+  }
+}
