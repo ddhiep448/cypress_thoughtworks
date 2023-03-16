@@ -12,6 +12,7 @@ console.info(`${specPattern}`)
 
 const { defineConfig } = require('cypress')
 module.exports = defineConfig({
+  projectId: "azoi9d",
   defaultCommandTimeout: 5000,
   env: envConfig,
   e2e: {
