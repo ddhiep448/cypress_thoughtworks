@@ -15,4 +15,4 @@ workflows:
       - cypress/run: # "run" job comes from "cypress" orb
           parallelism: 2
           install-browsers: true
-          cypress-command: 'npx cypress run --browser chrome --record --group all tests --ci-build-id circle --key 3f12b95e-b5c7-4692-b966-a40d73344341'
+          cypress-command: 'npm run cy:run:chrome:record'
