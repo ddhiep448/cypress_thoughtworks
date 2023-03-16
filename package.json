@@ -5,7 +5,7 @@
   "scripts": {
     "cy:info": "cypress info",
     "cy:open": "cypress open -C cypress.config",
-    "cy:run:chrome:record": "cypress run --browser chrome --parallel --record --group all tests --ci-build-id circle --key 3f12b95e-b5c7-4692-b966-a40d73344341",
+    "cy:run:chrome:record": "cypress run --browser chrome --record --group all tests --ci-build-id test --key 3f12b95e-b5c7-4692-b966-a40d73344341",
     "cy:run:chrome": "cypress run --headed --browser chrome"
   },
   "repository": {
