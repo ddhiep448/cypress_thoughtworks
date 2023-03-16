@@ -12,7 +12,7 @@ orbs:
 workflows:
   build:
     jobs:
-      - cypress/run # "run" job comes from "cypress" orb
+      - cypress/run: # "run" job comes from "cypress" orb
           parallelism: 2
           install-browsers: true
           start-command: 'cy:run:chrome:record'
